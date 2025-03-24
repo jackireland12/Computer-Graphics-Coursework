@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\source\coursework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\common\maths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\common\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\common\model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\common\light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\common\shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\common\texture.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\common\stb_image.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\common\maths.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\common\camera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\common\model.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\common\light.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\source\vertexShader.glsl" />
+    <None Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\source\fragmentShader.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FB248ED8-6E67-3F59-9FD6-A6B4A89E31E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CC9EAE03-0D5F-3D32-9A32-D334D6437FEE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

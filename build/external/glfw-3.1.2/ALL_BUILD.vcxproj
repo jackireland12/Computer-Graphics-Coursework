@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3414224C-6588-3F6C-BBED-62FE4C767B55}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework" "-BC:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework/build" --check-stamp-file "C:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework/build/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework" "-BC:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework/build" --check-stamp-file "C:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework/build/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework" "-BC:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework/build" --check-stamp-file "C:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework/build/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework" "-BC:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework/build" --check-stamp-file "C:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework/build/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\ZERO_CHECK.vcxproj">
+      <Project>{60C1B81F-B77A-3C8D-B043-09E1E97B1539}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\examples\boing.vcxproj">
+      <Project>{1C5D3A73-EF7C-396C-9147-519FCB74FB7A}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\tests\clipboard.vcxproj">
+      <Project>{45E7C4C7-85DC-3479-8353-7F2EF7F2F4BE}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\tests\cursor.vcxproj">
+      <Project>{C2DA9EFA-5630-3A6A-B519-CA275CDFF9B2}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\tests\empty.vcxproj">
+      <Project>{303165AF-1020-31C6-B624-4CCBD6712E06}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\tests\events.vcxproj">
+      <Project>{CAD07F7E-ED43-3F5E-8C75-06DA34FEDA30}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\tests\gamma.vcxproj">
+      <Project>{C256145B-C6EF-33D0-BB51-A3C822887FD1}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\examples\gears.vcxproj">
+      <Project>{3A91609B-310D-3480-824D-AC724D31FF75}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\src\glfw.vcxproj">
+      <Project>{3268DA43-4F40-3249-96FD-24EEA550444C}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\tests\glfwinfo.vcxproj">
+      <Project>{2E3CAEF1-18BF-335A-9A6D-2F2C43854624}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\examples\heightmap.vcxproj">
+      <Project>{87720C35-C966-305E-BDA7-A8F311EEB726}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\tests\iconify.vcxproj">
+      <Project>{3713F877-2997-3960-80F1-8C7C607F96AA}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\tests\joysticks.vcxproj">
+      <Project>{9741E526-8994-3F13-9788-B52970E85C44}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\tests\monitors.vcxproj">
+      <Project>{E3508A53-5BC4-318B-B78D-3ED810A007DC}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\tests\msaa.vcxproj">
+      <Project>{9C79EC2D-CAB8-3FA4-BEA9-55DA5D47B78E}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\examples\particles.vcxproj">
+      <Project>{A2FA77FF-8849-3992-8F03-EB1A130E6701}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\tests\reopen.vcxproj">
+      <Project>{438AF60C-5AF7-32F7-9776-EAB7F3EFB5CD}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\tests\sharing.vcxproj">
+      <Project>{4FCAF40A-75D0-3464-88B4-490E4CFE1AA7}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\examples\simple.vcxproj">
+      <Project>{CDDD877C-C05B-34F8-B38B-35FEBAF81A8C}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\examples\splitview.vcxproj">
+      <Project>{1AFDDA48-4351-399D-B3A9-44E78B1E7287}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\tests\tearing.vcxproj">
+      <Project>{D8DBE149-9A86-3E52-91C9-0715F2A7B629}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\tests\threads.vcxproj">
+      <Project>{77B489DD-77D7-3DEE-B97E-385B9C8FAB1B}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\tests\title.vcxproj">
+      <Project>{DBB9EB07-B302-3FE9-BDD3-FB2522694DC9}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\examples\wave.vcxproj">
+      <Project>{895864D5-BB10-373E-931F-069C4057B0F5}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\external\glfw-3.1.2\tests\windows.vcxproj">
+      <Project>{FD74D684-CB2D-373B-8BC0-77812F21A56F}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\examples\heightmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\deps\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\deps\glad\glad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\external\glfw-3.1.2\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FB248ED8-6E67-3F59-9FD6-A6B4A89E31E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CC9EAE03-0D5F-3D32-9A32-D334D6437FEE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

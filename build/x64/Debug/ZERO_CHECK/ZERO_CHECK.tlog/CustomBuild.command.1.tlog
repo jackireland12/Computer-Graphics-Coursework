@@ -1,0 +1,10 @@
+^C:\USERS\QWERT\ONEDRIVE\DESKTOP\COMPUTERGRAPHICS\COMPUTERGRAPHICS ASSIGMENT\COMPUTER-GRAPHICS-COURSEWORK\BUILD\CMAKEFILES\841C58059135E87EDF740C17677A4688\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework" "-BC:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/qwert/OneDrive/Desktop/computergraphics/computergraphics assigment/Computer-Graphics-Coursework/build/Computer_Graphics_Coursework.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
