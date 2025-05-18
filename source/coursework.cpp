@@ -91,7 +91,8 @@ int main( void )
     // Compile shader program
     unsigned int shaderID, lightShaderID;
     shaderID = LoadShaders("vertexShader.glsl", "fragmentShader.glsl");
-   //lightShaderID = LoadShaders("lightVertexShader.glsl", "lightFragmentShader.glsl");
+  
+   lightShaderID = LoadShaders("lightVertexShader.glsl", "lightFragmentShader.glsl");
 
     // Activate shader
     glUseProgram(shaderID);
@@ -113,6 +114,17 @@ int main( void )
     Light lightSources;
     lightSources.addDirectionalLight(glm::vec3(1.0f, -1.0f, 0.0f),  // direction
         glm::vec3(1.0f, 1.0f, 0.0f));  // colour
+    //lightSources.addSpotLight(
+    //    glm::vec3(5.0f, 5.0f, 0.0f),            // position: above the origin
+    //    glm::vec3(0.0f, -1.0f, 0.0f),           // direction: pointing down
+    //    glm::vec3(1.0f, 1.0f, 1.0f),            // color: white light
+    //    glm::cos(glm::radians(5.0f)),           // inner cutoff: tight beam
+    //    glm::cos(glm::radians(8.0f)),           // outer cutoff: soft edge
+    //    1.0f,                                   // intensity: normal brightness
+    //    true                                    // enabled: spotlight is active
+    //);
+
+
 
     // Cube positions
     glm::vec3 positions[] = {
@@ -125,14 +137,18 @@ int main( void )
         glm::vec3(0.0f, -2.0f, -5.0f),
         glm::vec3(4.0f,  2.0f, -4.0f),
         glm::vec3(2.0f,  0.0f, -2.0f),
-        glm::vec3(-1.0f,  1.0f, -2.0f)
+        glm::vec3(1.0f,  1.0f, -2.0f),
+        glm::vec3(-1.0f,  4.0f, -2.0f),
+        glm::vec3(-4.0f, 2.0f, -2.0f),
+        glm::vec3(-2.0f,  3.0f, -2.0f)
+
     };
 
     // Add teapots to objects vector
     std::vector<Object> objects;
     Object object;
     object.name = "cube";
-    for (unsigned int i = 0; i < 10; i++)
+    for (unsigned int i = 0; i < 13; i++)
     {
         object.position = positions[i];
         object.rotation = glm::vec3(1.0f, 1.0f, 1.0f);
@@ -191,7 +207,7 @@ int main( void )
         }
 
         // Draw light sources
-       // lightSources.draw(lightShaderID, camera.view, camera.projection, sphere);
+        lightSources.draw(lightShaderID, camera.view, camera.projection, sphere);
 
         // Swap buffers
         glfwSwapBuffers(window);
