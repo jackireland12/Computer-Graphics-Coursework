@@ -1,4 +1,4 @@
 ﻿  coursework.cpp
-C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\source\coursework.cpp(212,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\source\coursework.cpp(225,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\source\coursework.cpp(94,28): warning C4101: 'lightShaderID': unreferenced local variable
   Computer_Graphics_Coursework.vcxproj -> C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\build\Debug\Computer_Graphics_Coursework.exe

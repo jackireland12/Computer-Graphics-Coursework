@@ -144,30 +144,43 @@ int main( void )
 
     // Cube positions
     glm::vec3 positions[] = {
-        glm::vec3(0.0f,  -3.0f,  0.0f),
-        glm::vec3(0.0f, -3.0f, -10.0f),
-        glm::vec3(0.0f, -3.0f, -3.0f),
-        glm::vec3(0.0f, -3.0f, -8.0f),
-        glm::vec3(0.0f,  -3.0f, -6.0f),
-        glm::vec3(0.0f,  -3.0f, -8.0f),
-        /*glm::vec3(0.0f, -2.0f, -5.0f),
-        glm::vec3(4.0f,  2.0f, -4.0f),
-        glm::vec3(2.0f,  0.0f, -2.0f),
-        glm::vec3(1.0f,  1.0f, -2.0f),
-        glm::vec3(-1.0f,  4.0f, -2.0f),
-        glm::vec3(-4.0f, 2.0f, -2.0f),
-        glm::vec3(-2.0f,  3.0f, -2.0f)*/
+        glm::vec3(1.0f,  -3.0f,  1.0f),
+        glm::vec3(1.0f, -3.0f, 2.0f),
+        glm::vec3(1.0f, -3.0f, 3.0f),
+        glm::vec3(2.0f, -3.0f, 1.0f),
+        glm::vec3(2.0f,  -3.0f, 2.0f),
+        glm::vec3(2.0f,  -3.0f, 3.0f),
+        glm::vec3(3.0f, -3.0f, 1.0f),
+        glm::vec3(3.0f,  -3.0f, 2.0f),
+        glm::vec3(3.0f,  -3.0f, 3.0f),
+        glm::vec3(1.0f,  -3.0f, -1.0f),
+        glm::vec3(4.0f,  -3.0f, 1.0f),
+        glm::vec3(4.0f, -3.0f, 2.0f),
+        glm::vec3(4.0f,  -3.0f, 3.0f),
+        glm::vec3(1.0f,  -3.0f,  4.0f),
+        glm::vec3(1.0f, -3.0f, 5.0f),
+        glm::vec3(1.0f, -3.0f, 6.0f),
+        glm::vec3(2.0f, -3.0f, 4.0f),
+        glm::vec3(2.0f,  -3.0f, 5.0f),
+        glm::vec3(2.0f,  -3.0f, 6.0f),
+        glm::vec3(3.0f, -3.0f, 4.0f),
+        glm::vec3(3.0f,  -3.0f, 5.0f),
+        glm::vec3(3.0f,  -3.0f, 6.0f),
+        glm::vec3(1.0f,  -3.0f, 0.0f),
+        glm::vec3(4.0f,  -3.0f, 4.0f),
+        glm::vec3(4.0f, -3.0f, 5.0f),
+        glm::vec3(4.0f,  -3.0f, 6.0f)
 
     };
     // teapot positions
     glm::vec3 positionstea[] = {
-        glm::vec3(0.0f,  3.0f,  0.0f),
-        glm::vec3(2.0f,  5.0f, -50.0f),
-        glm::vec3(5.0f, -2.0f, -3.0f),
+        glm::vec3(0.0f,  0.0f,  1.0f),
+        glm::vec3(2.0f,  0.0f, 3.0f),
+        glm::vec3(5.0f, 0.0f, 2.0f),
     };
     // speare positions
     glm::vec3 positionsround[] = {
-        glm::vec3(0.0f,  3.0f,  0.0f),
+        glm::vec3(2.0f,  -1.0f,  2.0f),
         
     };
 
@@ -179,7 +192,7 @@ int main( void )
     object.name = "cube";
     objtea.name = "teapot";
     round.name = "sphere";
-    for (unsigned int i = 0; i < 13; i++)
+    for (unsigned int i = 0; i < 26; i++)
     {
         object.position = positions[i];
         object.rotation = glm::vec3(1.0f, 1.0f, 1.0f);
@@ -187,7 +200,7 @@ int main( void )
         //object.angle = Maths::radians(20.0f * i);
         objects.push_back(object);
     }
-    for (unsigned int i = 0; i < 13; i++)
+    for (unsigned int i = 0; i < 3; i++)
     {
         objtea.position = positionstea[i];
         objtea.rotation = glm::vec3(1.0f, 1.0f, 1.0f);
@@ -195,7 +208,7 @@ int main( void )
         objtea.angle = Maths::radians(20.0f * i);
         objects.push_back(objtea);
     }
-    for (unsigned int i = 0; i < 13; i++)
+    for (unsigned int i = 0; i < 1; i++)
     {
         round.position = positionsround[i];
         round.rotation = glm::vec3(1.0f, 1.0f, 1.0f);

@@ -3,10 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\build\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\camera.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\source\\coursework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -15,18 +12,30 @@
       "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\maths.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\source\\coursework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\source\\fragmentShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\source\\fragmentShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\source\\vertexShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\camera.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\build\\lightVertexShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|solutionrelative:lightVertexShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\build\\lightShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|solutionrelative:lightShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\build\\lightVertexShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|solutionrelative:lightVertexShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\shader.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\light.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\build\\lightFragmentShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -36,16 +45,7 @@
       "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\light.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\light.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\source\\vertexShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\maths.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\shader.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B7EA0A0-81A1-3992-B50F-010C71685A0A}|Computer_Graphics_Coursework.vcxproj|C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\texture.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -58,11 +58,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "coursework.cpp",
+              "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\source\\coursework.cpp",
+              "RelativeDocumentMoniker": "..\\source\\coursework.cpp",
+              "ToolTip": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\source\\coursework.cpp",
+              "RelativeToolTip": "..\\source\\coursework.cpp",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAAAMIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-24T01:48:36.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "vertexShader.glsl",
+              "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\source\\vertexShader.glsl",
+              "RelativeDocumentMoniker": "..\\source\\vertexShader.glsl",
+              "ToolTip": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\source\\vertexShader.glsl",
+              "RelativeToolTip": "..\\source\\vertexShader.glsl",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-20T23:45:44.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "camera.cpp",
+              "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\camera.cpp",
+              "RelativeDocumentMoniker": "..\\common\\camera.cpp",
+              "ToolTip": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\camera.cpp",
+              "RelativeToolTip": "..\\common\\camera.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-24T01:48:34.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "maths.cpp",
+              "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\maths.cpp",
+              "RelativeDocumentMoniker": "..\\common\\maths.cpp",
+              "ToolTip": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\maths.cpp",
+              "RelativeToolTip": "..\\common\\maths.cpp",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-20T23:45:24.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "camera.hpp",
+              "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\camera.hpp",
+              "RelativeDocumentMoniker": "..\\common\\camera.hpp",
+              "ToolTip": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\camera.hpp",
+              "RelativeToolTip": "..\\common\\camera.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-22T20:36:48.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "shader.hpp",
+              "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\shader.hpp",
+              "RelativeDocumentMoniker": "..\\common\\shader.hpp",
+              "ToolTip": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\shader.hpp",
+              "RelativeToolTip": "..\\common\\shader.hpp",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-23T00:57:23.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "lightShader.glsl",
               "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\build\\lightShader.glsl",
               "RelativeDocumentMoniker": "lightShader.glsl",
@@ -88,105 +166,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "fragmentShader.glsl",
               "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\source\\fragmentShader.glsl",
               "RelativeDocumentMoniker": "..\\source\\fragmentShader.glsl",
               "ToolTip": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\source\\fragmentShader.glsl",
               "RelativeToolTip": "..\\source\\fragmentShader.glsl",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAAAAAAAAARAAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAAAAAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-20T23:45:42.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "coursework.cpp",
-              "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\source\\coursework.cpp",
-              "RelativeDocumentMoniker": "..\\source\\coursework.cpp",
-              "ToolTip": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\source\\coursework.cpp",
-              "RelativeToolTip": "..\\source\\coursework.cpp",
-              "ViewState": "AQIAAN8AAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-24T01:48:36.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "model.cpp",
               "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\model.cpp",
               "RelativeDocumentMoniker": "..\\common\\model.cpp",
               "ToolTip": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\model.cpp",
               "RelativeToolTip": "..\\common\\model.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-23T00:55:30.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "lightFragmentShader.glsl",
-              "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\build\\lightFragmentShader.glsl",
-              "RelativeDocumentMoniker": "lightFragmentShader.glsl",
-              "ToolTip": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\build\\lightFragmentShader.glsl",
-              "RelativeToolTip": "lightFragmentShader.glsl",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-23T01:00:27.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "vertexShader.glsl",
-              "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\source\\vertexShader.glsl",
-              "RelativeDocumentMoniker": "..\\source\\vertexShader.glsl",
-              "ToolTip": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\source\\vertexShader.glsl",
-              "RelativeToolTip": "..\\source\\vertexShader.glsl",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-20T23:45:44.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "camera.cpp",
-              "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\camera.cpp",
-              "RelativeDocumentMoniker": "..\\common\\camera.cpp",
-              "ToolTip": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\camera.cpp",
-              "RelativeToolTip": "..\\common\\camera.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-24T01:48:34.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "maths.cpp",
-              "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\maths.cpp",
-              "RelativeDocumentMoniker": "..\\common\\maths.cpp",
-              "ToolTip": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\maths.cpp",
-              "RelativeToolTip": "..\\common\\maths.cpp",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-20T23:45:24.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "camera.hpp",
-              "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\camera.hpp",
-              "RelativeDocumentMoniker": "..\\common\\camera.hpp",
-              "ToolTip": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\camera.hpp",
-              "RelativeToolTip": "..\\common\\camera.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-22T20:36:48.453Z",
               "EditorCaption": ""
             },
             {
@@ -199,11 +200,24 @@
               "RelativeToolTip": "..\\common\\light.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-23T00:55:19.193Z"
+              "WhenOpened": "2025-04-23T00:55:19.193Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
+              "Title": "lightFragmentShader.glsl",
+              "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\build\\lightFragmentShader.glsl",
+              "RelativeDocumentMoniker": "lightFragmentShader.glsl",
+              "ToolTip": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\build\\lightFragmentShader.glsl",
+              "RelativeToolTip": "lightFragmentShader.glsl",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-23T01:00:27.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "maths.hpp",
               "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\maths.hpp",
               "RelativeDocumentMoniker": "..\\common\\maths.hpp",
@@ -215,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "light.cpp",
               "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\light.cpp",
               "RelativeDocumentMoniker": "..\\common\\light.cpp",
@@ -224,18 +238,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-24T01:48:40.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "shader.hpp",
-              "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\shader.hpp",
-              "RelativeDocumentMoniker": "..\\common\\shader.hpp",
-              "ToolTip": "C:\\Users\\qwert\\OneDrive\\Desktop\\computergraphics\\computergraphics assigment\\Computer-Graphics-Coursework\\common\\shader.hpp",
-              "RelativeToolTip": "..\\common\\shader.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-23T00:57:23.68Z"
             },
             {
               "$type": "Document",
