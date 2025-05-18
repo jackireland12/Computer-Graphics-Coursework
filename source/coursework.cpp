@@ -88,11 +88,13 @@ int main( void )
     glfwPollEvents();
     glfwSetCursorPos(window, 1024 / 2, 768 / 2);
 
+    
+
     // Compile shader program
     unsigned int shaderID, lightShaderID;
     shaderID = LoadShaders("vertexShader.glsl", "fragmentShader.glsl");
   
-   lightShaderID = LoadShaders("lightVertexShader.glsl", "lightFragmentShader.glsl");
+   //lightShaderID = LoadShaders("lightVertexShader.glsl", "lightFragmentShader.glsl");
 
     // Activate shader
     glUseProgram(shaderID);
@@ -100,15 +102,29 @@ int main( void )
     // Load models
     Model cube("../assets/cube.obj");
     Model sphere("../assets/sphere.obj");
+    Model teapot("../assets/teapot.obj");
     //
     // Load the textures
     cube.addTexture("../assets/crate.jpg", "diffuse");
+    sphere.addTexture("../assets/bricks_deffuse.png", "diffuse");
+    teapot.addTexture("../assets/blue.bmp", "diffuse");
+
+
+
 
     // Define cube object lighting properties
     cube.ka = 1.0f;
     cube.kd = 0.0f;
     cube.ks = 0.0f;
     cube.Ns = 20.0f;
+    sphere.ka = 1.0f;
+    sphere.kd = 0.0f;
+    sphere.ks = 0.0f;
+    sphere.Ns = 20.0f;
+    teapot.ka = 1.0f;
+    teapot.kd = 0.0f;
+    teapot.ks = 0.0f;
+    teapot.Ns = 20.0f;
 
     // Add light sources
     Light lightSources;
@@ -128,34 +144,66 @@ int main( void )
 
     // Cube positions
     glm::vec3 positions[] = {
-        glm::vec3(0.0f,  0.0f,  0.0f),
-        glm::vec3(2.0f,  5.0f, -10.0f),
-        glm::vec3(-3.0f, -2.0f, -3.0f),
-        glm::vec3(-4.0f, -2.0f, -8.0f),
-        glm::vec3(2.0f,  2.0f, -6.0f),
-        glm::vec3(-4.0f,  3.0f, -8.0f),
-        glm::vec3(0.0f, -2.0f, -5.0f),
+        glm::vec3(0.0f,  -3.0f,  0.0f),
+        glm::vec3(0.0f, -3.0f, -10.0f),
+        glm::vec3(0.0f, -3.0f, -3.0f),
+        glm::vec3(0.0f, -3.0f, -8.0f),
+        glm::vec3(0.0f,  -3.0f, -6.0f),
+        glm::vec3(0.0f,  -3.0f, -8.0f),
+        /*glm::vec3(0.0f, -2.0f, -5.0f),
         glm::vec3(4.0f,  2.0f, -4.0f),
         glm::vec3(2.0f,  0.0f, -2.0f),
         glm::vec3(1.0f,  1.0f, -2.0f),
         glm::vec3(-1.0f,  4.0f, -2.0f),
         glm::vec3(-4.0f, 2.0f, -2.0f),
-        glm::vec3(-2.0f,  3.0f, -2.0f)
+        glm::vec3(-2.0f,  3.0f, -2.0f)*/
 
+    };
+    // teapot positions
+    glm::vec3 positionstea[] = {
+        glm::vec3(0.0f,  3.0f,  0.0f),
+        glm::vec3(2.0f,  5.0f, -50.0f),
+        glm::vec3(5.0f, -2.0f, -3.0f),
+    };
+    // speare positions
+    glm::vec3 positionsround[] = {
+        glm::vec3(0.0f,  3.0f,  0.0f),
+        
     };
 
     // Add teapots to objects vector
     std::vector<Object> objects;
     Object object;
+    Object objtea;
+    Object round;
     object.name = "cube";
+    objtea.name = "teapot";
+    round.name = "sphere";
     for (unsigned int i = 0; i < 13; i++)
     {
         object.position = positions[i];
         object.rotation = glm::vec3(1.0f, 1.0f, 1.0f);
         object.scale = glm::vec3(0.5f, 0.5f, 0.5f);
-        object.angle = Maths::radians(20.0f * i);
+        //object.angle = Maths::radians(20.0f * i);
         objects.push_back(object);
     }
+    for (unsigned int i = 0; i < 13; i++)
+    {
+        objtea.position = positionstea[i];
+        objtea.rotation = glm::vec3(1.0f, 1.0f, 1.0f);
+        objtea.scale = glm::vec3(0.5f, 0.5f, 0.5f);
+        objtea.angle = Maths::radians(20.0f * i);
+        objects.push_back(objtea);
+    }
+    for (unsigned int i = 0; i < 13; i++)
+    {
+        round.position = positionsround[i];
+        round.rotation = glm::vec3(1.0f, 1.0f, 1.0f);
+        round.scale = glm::vec3(0.5f, 0.5f, 0.5f);
+        round.angle = Maths::radians(20.0f * i);
+        objects.push_back(round);
+    }
+    
 
     // Render loop
     while (!glfwWindowShouldClose(window))
@@ -204,10 +252,14 @@ int main( void )
             // Draw the model
             if (objects[i].name == "cube")
                 cube.draw(shaderID);
+            if (objects[i].name == "teapot")
+                teapot.draw(shaderID);
+            if (objects[i].name == "sphere")
+                sphere.draw(shaderID);
         }
 
         // Draw light sources
-        lightSources.draw(lightShaderID, camera.view, camera.projection, sphere);
+        //lightSources.draw(lightShaderID, camera.view, camera.projection, sphere);
 
         // Swap buffers
         glfwSwapBuffers(window);

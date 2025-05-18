@@ -409,6 +409,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\common\light.hpp" />
     <ClCompile Include="C:\Users\qwert\OneDrive\Desktop\computergraphics\computergraphics assigment\Computer-Graphics-Coursework\common\light.cpp" />
     <None Include="lightFragmentShader.glsl" />
+    <None Include="lightShader.glsl" />
     <None Include="lightVertexShader.glsl" />
   </ItemGroup>
   <ItemGroup />
